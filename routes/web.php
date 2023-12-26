@@ -23,6 +23,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+
 Route::get('/about', function () {
     return 'Halaman About';
 });
